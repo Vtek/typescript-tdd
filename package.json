@@ -1,0 +1,24 @@
+{
+  "name": "flatsquares",
+  "version": "0.0.0",
+  "description": "Experimental 2d game engine",
+  "scripts": {
+    "dev": "webpack --config webpack.config.js",
+    "prod": "webpack -p --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vtek/FlatSquares.git"
+  },
+  "author": "Sylvain PONTOREAU <pontoreau.sylvain@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vtek/FlatSquares/issues"
+  },
+  "homepage": "https://github.com/Vtek/FlatSquares#readme",
+  "devDependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.2"
+  }
+}
