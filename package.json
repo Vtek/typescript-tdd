@@ -4,7 +4,9 @@
   "description": "Experimental 2d game engine",
   "scripts": {
     "dev": "webpack --config webpack.config.js",
-    "prod": "webpack -p --config webpack.config.js"
+    "prod": "webpack -p --config webpack.config.js",
+    "test": "mocha -r ts-node/register ./src/**/*.spec.ts",
+    "watch": "mocha -r ts-node/register ./src/**/*.spec.ts --watch --watch-extensions ts"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,12 @@
   },
   "homepage": "https://github.com/Vtek/FlatSquares#readme",
   "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.40",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
     "ts-loader": "^2.0.3",
+    "ts-node": "^3.0.2",
     "typescript": "^2.2.2",
     "webpack": "^2.3.2"
   }
