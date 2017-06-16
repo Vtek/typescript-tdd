@@ -167,7 +167,7 @@ describe('As a developer, i want a Vector implementation', () => {
 | Name | Description | Color |
 | --- | --- | --- |
 | bug | Bug reports | ![#](https://placehold.it/15/e74c3c/000000?text=+) |
-| feature | Approved feature | ![#](https://placehold.it/15/3498db/000000?text=+) |
+| enhancement | Feature to implement | ![#](https://placehold.it/15/3498db/000000?text=+) |
 | proposal | Feature proposal | ![#](https://placehold.it/15/1abc9c/000000?text=+) |
 | documentation | Documentation enhancement | ![#](https://placehold.it/15/ecf0f1/000000?text=+) |
 | alm | Application lifecycle management improvment | ![#](https://placehold.it/15/e67e22/000000?text=+) |
