@@ -6,7 +6,8 @@
     "dev": "webpack --config webpack.config.js",
     "prod": "webpack -p --config webpack.config.js",
     "test": "mocha -r ts-node/register ./test/**/*.spec.ts",
-    "watch": "mocha -r ts-node/register ./test/**/*.spec.ts --watch --watch-extensions ts"
+    "watch": "mocha -r ts-node/register ./test/**/*.spec.ts --watch --watch-extensions ts",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'; exit 0;"
   },
   "repository": {
     "type": "git",
