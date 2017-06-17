@@ -29,16 +29,16 @@ The following guidelines ensure your contributions respect the **FlatSquares** e
 ### <a id="bugs"></a>🐛 Bugs
 Bug reports are one of the contributions you can do on **FlatSquares** engine. 
 
-First, ensure your bug isn't listed in [issues](https://github.com/FlatSquares/FlatSquares/issues). It is preferable to contribute to an existing issue insead of created a new one. It's really important that you respect a specific format for your bug reports (format is available [here](doc/contributing/bug.md)). This provides an optimal reading for contributors and ease the implementations of fixes.
+First, ensure your bug isn't listed in [issues](https://github.com/flatsquares/flatsquares/issues). It is preferable to contribute to an existing issue insead of created a new one. It's really important that you respect a specific format for your bug reports (template is available [here](https://raw.githubusercontent.com/flatsquares/documentation/master/contributing/bug.md)). This provides an optimal reading for contributors and ease the implementations of fixes.
 
 If a bug can be cover with an unit test, you are more than welcome to write it! It's one of the best way to quickly resolve the issue 👍
 
 ### <a id="features"></a>💡 Features
 Features can add some new capabilities to the engine. 
 
-First, ensure your feature isn't listed in [issues](https://github.com/FlatSquares/FlatSquares/issues). A feature needs to respect a specific format (format is available [here](doc/contributing/feature.md)).
+First, ensure your feature isn't listed in [issues](https://github.com/flatsquares/flatsquares/issues). A feature needs to respect a specific format (template is available [here](https://raw.githubusercontent.com/flatsquares/documentation/master/contributing/feature.md)).
 
-A feature must be created as a proposal for discussion with the community. When an agreement is finded between community and **FlatSquares** team, the proposal is added as a feature inside a [project](). A features can be considered too large to be a task in a project. If so, **FlatSquares** team can decide to create the feature as project and split it into multiple small features (for an easier integration inside the FlatSquare engine).
+A feature must be created as a proposal for discussion with the community. When an agreement is finded between community and **FlatSquares** team, the proposal is added as a feature inside a [project](https://github.com/flatsquares/flatsquares/projects). A features can be considered too large to be a task in a project. If so, **FlatSquares** team can decide to create the feature as project and split it into multiple small features (for an easier integration inside the FlatSquare engine).
 
 ### <a id="pull-requests"></a>🎁 Pull Requests
 First, you need to take a look at [Conventions](#conventions) to ensure your code respect **FlatSquares** engine rules. These rules are mandatories to ensure each pull request respects the philosophy of the **FlatSquares** engine.
@@ -112,7 +112,7 @@ $ git push {origin} feature/{featureNameOrIssueId}
 ```
 
 #### Github PR
-Pull requests need to respect a specific format (format is available [here](doc/contributing/pr.md)).
+Pull requests need to respect a specific format (template is available [here](https://raw.githubusercontent.com/flatsquares/documentation/master/contributing/pr.md)).
 
 When approved by reviewers, pull request are squashed into the "*develop*" branch.
 
@@ -122,7 +122,7 @@ When approved by reviewers, pull request are squashed into the "*develop*" branc
 > 🚧 This section is a work in progress
 
 ### <a id="code"></a>⌨️ Code
-Code conventions can be found [here](doc/contributing/code.md).
+Code conventions can be found [here](https://github.com/flatsquares/documentation/blob/master/contributing/code.md).
 
 ### <a id="specification"></a>🔬 Specification
 - [Mocha](https://mochajs.org/) and [chai](http://chaijs.com/) are used to write specification.
