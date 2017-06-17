@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "webpack --config webpack.config.js",
     "prod": "webpack -p --config webpack.config.js",
-    "test": "mocha -r ts-node/register ./src/**/*.spec.ts",
-    "watch": "mocha -r ts-node/register ./src/**/*.spec.ts --watch --watch-extensions ts"
+    "test": "mocha -r ts-node/register ./test/**/*.spec.ts",
+    "watch": "mocha -r ts-node/register ./test/**/*.spec.ts --watch --watch-extensions ts"
   },
   "repository": {
     "type": "git",
