@@ -20,12 +20,12 @@ describe('As a developer, i want a Vector implementation', () => {
         other = new Vector(otherX, otherY);
     });
 
-    it('Vector can be initializes with X & Y coordinates', () => {
+    it('Coordinates are available outside of the class', () => {
         expect(vector).to.have.property('x');
         expect(vector).to.have.property('y');
     });
 
-    it('Coordinates are available outside of the class', () => {
+    it('Vector can be initializes with X & Y coordinates', () => {
         expect(vector.x).to.be.equal(x);
         expect(vector.y).to.be.equal(y);
     });
