@@ -3,11 +3,8 @@
   "version": "0.0.0",
   "description": "Experimental 2d game engine",
   "scripts": {
-    "dev": "webpack --config webpack.config.js",
-    "prod": "webpack -p --config webpack.config.js",
     "test": "mocha -r ts-node/register ./test/**/*.spec.ts",
-    "watch": "mocha -r ts-node/register ./test/**/*.spec.ts --watch --watch-extensions ts",
-    "lint": "tslint -c tslint.json 'src/**/*.ts'; exit 0;"
+    "lint": "tslint -c tslint.json 'lib/*.ts' 'test/*.ts'; exit 0;"
   },
   "repository": {
     "type": "git",
@@ -24,9 +21,8 @@
     "@types/mocha": "^2.2.40",
     "chai": "^3.5.0",
     "mocha": "^3.2.0",
-    "ts-loader": "^2.0.3",
     "ts-node": "^3.0.2",
-    "typescript": "^2.2.2",
-    "webpack": "^2.3.2"
+    "tslint": "^5.4.3",
+    "typescript": "^2.3.4"
   }
 }

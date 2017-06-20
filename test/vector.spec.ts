@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import { Vector } from '../../src/common/vector';
+import { Vector } from '../lib/vector';
 
 describe('As a developer, i want a Vector implementation', () => {
     let x: number;
@@ -31,9 +31,9 @@ describe('As a developer, i want a Vector implementation', () => {
     });
 
     it('Vector default coordinates are 0,0', () => {
-        const vector = new Vector();
-        expect(vector.x).to.be.equal(0);
-        expect(vector.y).to.be.equal(0);
+        const v = new Vector();
+        expect(v.x).to.be.equal(0);
+        expect(v.y).to.be.equal(0);
     });
 
     it('Vector can be rounded', () => {
@@ -100,9 +100,9 @@ describe('As a developer, i want a Vector implementation', () => {
     });
 
     it('Vector can be normalized', () => {
-        const value = 1.0 / Math.sqrt(x * x + y * y);
-        const expectedX = x * value;
-        const expectedY = y * value;
+        const v = 1.0 / Math.sqrt(x * x + y * y);
+        const expectedX = x * v;
+        const expectedY = y * v;
 
         vector.normalize();
 
@@ -111,7 +111,7 @@ describe('As a developer, i want a Vector implementation', () => {
     });
 
     it('Vector can be compared with another Vector', () => {
-        const expected = x == otherX && y == otherY;
+        const expected = x === otherX && y === otherY;
 
         const actual = vector.compare(other);
 
